@@ -1,6 +1,7 @@
+
 const Events = require("../models/event.model.js");
 const Restaurant = require("../models/restaurant.model.js");
-const { findRestaurantById } = require("./RestaurantService.js");
+// const { findRestaurantById } = require("./RestaurantService.js");
 
 module.exports = {
   async createEvent(event, restaurantId) {
